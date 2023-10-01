@@ -11,7 +11,7 @@
 ##### DLしたimageの保存先  
 ```
 .  
-├── image  
+├── image-cache  
 │   └── 4873115655.jpg  
 └── amazon_image.py  
 ```

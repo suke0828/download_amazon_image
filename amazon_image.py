@@ -4,7 +4,8 @@ import os
 
 
 def download_amazon_image(asin):
-    url = f"http://images-jp.amazon.com/images/P/{asin}.09.LZZZZZZZ.jpg"
+    # url = f"http://images-jp.amazon.com/images/P/{asin}.09.LZZZZZZZ.jpg"
+    url = f"https://images-na.ssl-images-amazon.com/images/P/{asin}.09.LZZZZZZZ.jpg"
     # image_cacheディレクトリにxxxxxxxxxx.jpg形式で保存される
     local_filename = f"image_cache/{asin}.jpg"
     if os.path.isfile(local_filename):
